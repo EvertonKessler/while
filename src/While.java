@@ -11,7 +11,7 @@ public class While {
 		
 		System.out.println(a);
 		imprime(a);
-		imprime(valor(a));
+		imprime(Valor.valor(a));
 		
 		System.out.println("-------------------------");
 		
@@ -31,19 +31,6 @@ public class While {
 	
 	public static void imprime (int e) {
 		System.out.println(e);
-	}
-	
-	public static int valor (int e) {
-		int k = 0;
-		
-		if (e > 10) {
-			k = 100;
-		}
-		else {
-			k = 10;
-		}
-		
-		return k;
 	}
 
 }
