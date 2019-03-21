@@ -6,6 +6,7 @@ public class While {
 
 		Scanner sc = new Scanner(System.in);	
 		
+		System.out.print("Informe um numero inteiro: ");
 		int a = sc.nextInt();
 		
 		System.out.println(a);
